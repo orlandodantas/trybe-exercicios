@@ -4,7 +4,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 _"A Trybe é a escolha certa para quem deseja se torna um desenvolvedor web júnior de sucesso, e evoluir na sua carreira profissional."_
 
-“A Trybe trabalha com o modelo de metodologia ativa, onde o aluno é o protagonista do seu aprendizado”. Aborda conteúdos que vão além dos ensinamentos técnico, ou seja, além de aprendermos hard skills também aprendemos a desenvolver nossas soft skills..
+“A Trybe trabalha com o modelo de metodologia ativa, onde o aluno é o protagonista do seu aprendizado”. Aborda conteúdos que vão além dos ensinamentos técnico, ou seja, além de aprendermos hard skills também aprendemos a desenvolver nossas soft skills.
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
