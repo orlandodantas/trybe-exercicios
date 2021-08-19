@@ -1,0 +1,38 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 65px;
+    color: orange;
+}
+
+ul {
+    background-color: blueviolet;
+    font-style: italic;
+    line-height: 30px;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 600;
+    width: 3em;
+}
+
+body {
+    font-size: 16px;
+}
+
+.cor-favorita {
+    background-color: cadetblue;
+}
+
+#list-yellow {
+    background-color: yellow;
+}
+
+#list-red {
+    background-color: red;
+}
+
+#list-brow {
+    background-color: brown;
+}
