@@ -1,0 +1,53 @@
+div:hover {
+    border: 5px aqua solid;
+}
+
+/* O codigo a seguir foi feito com as dicas dessa thead 
+https://trybecourse.slack.com/archives/C02B4PPBERE/p1629499047213300 no slack e também com o site do 
+mdn, linhk a seguir https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-of-type */
+
+div:nth-of-type(1) {
+    background-color: red;
+}
+
+div:nth-of-type(2) {
+    background-color: green;
+}
+
+div:nth-of-type(3) {
+    background-color: fuchsia;
+    height: 60px;
+}
+
+div:nth-of-type(4) {
+    background-color: blue;
+}
+
+div:nth-of-type(5) {
+    background-color: yellow;
+}
+
+div:nth-of-type(1) h3 {
+    text-decoration: line-through;
+}
+
+div:nth-of-type(2) h3 {
+    margin-left: 15px;
+}
+
+div:nth-of-type(3) h3 {
+    border-top: 3px solid;
+}
+
+div:nth-of-type(4) h3 {
+    color: white;
+    border: 2px solid;
+}
+
+div:nth-of-type(5) h3 {
+    font-size: 15px;
+}
+
+div:nth-of-type(odd) h3{
+    font-style: italic;
+}
