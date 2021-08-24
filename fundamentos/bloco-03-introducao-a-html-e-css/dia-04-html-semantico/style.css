@@ -47,6 +47,10 @@ main {
     background-color: #FEFAE0;
 }
 
+table {
+    margin-bottom: 20px;
+}
+
 table, th, td {
     border: 1px solid black;
     /* border-collapse: collapse; */
@@ -63,6 +67,7 @@ img {
 
 p {
     text-align: justify;
+    line-height: 150%;
 }
 
 aside {
@@ -85,4 +90,14 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+a .aviso_link {
+    display: none;
+    color: black;
+}
+
+a:hover .aviso_link {
+    display: inline;
+
 }
