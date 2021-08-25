@@ -1,0 +1,103 @@
+* {
+    margin-top: 0;
+}
+
+body {
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    background-color: beige;
+    margin: 0;
+}
+
+header {
+    background-color: darkgrey;
+    text-align: center;
+    /* height: 60px; */
+    padding-top: 20px;
+    padding-bottom: 7px;
+    color: black;
+}
+
+nav {
+    background-color: bisque;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    /* color: blue; */
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: #FEFAE0;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+img {
+    width: 300px;
+}
+
+p {
+    text-align: justify;
+    line-height: 150%;
+}
+
+aside {
+    border: 1px solid rgb(155, 146, 146);
+    padding: 10px;
+    width: 320px;
+}
+
+aside p {
+    text-align: center;
+    font-weight: 600;
+}
+
+footer {
+    background-color: darkgrey;
+    height: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer p {
+    text-align: center;
+}
+
+a .aviso_link {
+    display: none;
+    color: black;
+}
+
+a:hover .aviso_link {
+    display: inline;
+
+}
