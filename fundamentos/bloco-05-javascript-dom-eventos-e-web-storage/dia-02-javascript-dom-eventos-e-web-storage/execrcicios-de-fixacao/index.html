@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pai do Filho</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+
+  <script>
+    // 1. Acesse o elemento elementoOndeVoceEsta.
+    let elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+    
+    // 2. Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+    elementoOndeVoceEsta.parentElement.style.backgroundColor = 'grey';
+    //elementoOndeVoceEsta.parentNode.style.backgroundColor = 'red';
+
+    // 3. Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+    let primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+    primeiroFilhoDoFilho.innerHTML = '<strong>Trybe é Show<strong>';
+    
+    // 4. Acesse o primeiroFilho a partir de pai .
+    let pai = document.getElementById('pai');
+    let primeiroFilho = pai.firstElementChild;
+
+    // 5. Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
+    let primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
+
+    // 6. Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
+    let atencao = elementoOndeVoceEsta.nextSibling;
+
+    // 7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
+    let terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+
+    // 8. Agora acesse o terceiroFilho a partir de pai .
+    let terceiroFilho2 = pai.lastElementChild.previousElementSibling;
+
+
+    // O gabarito da Trybe foi consultado para a esclarecer os assuntos, pois somente com o conteúdo do dia, não tinha ficado claro, mas após a aula do tio Jack, conseguir compreender o assunto e resolver todos os problemas.
+
+    // -----------------------------------------------------------------------------------------------
+    // Parte 02
+    
+    // 1. Crie um irmão para elementoOndeVoceEsta .
+      let irmaoElementoOndeVoceEsta = document.createElement('section');
+      irmaoElementoOndeVoceEsta.id = 'irmaoElementoOndeVoceEsta';
+      pai.appendChild(irmaoElementoOndeVoceEsta);
+
+    // 2. Crie um filho para elementoOndeVoceEsta .
+    let filhoElementoOndeVoceEsta = document.createElement('section');
+    filhoElementoOndeVoceEsta.id = 'filhoElementoOndeVoceEsta';
+    elementoOndeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
+
+    // 3. Crie um filho para primeiroFilhoDoFilho .
+    let filhoDoPrimeiroFilhoDoFilho = document.createElement('section');
+    filhoDoPrimeiroFilhoDoFilho.id = 'filhoDoPrimeiroFilhoDoFilho';
+    primeiroFilhoDoFilho.appendChild(filhoDoPrimeiroFilhoDoFilho);
+
+    // 4. A partir desse filho criado, acesse terceiroFilho .
+    let terceiroFilho3 = filhoDoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling;
+
+    // -----------------------------------------------------------------------------------------------
+    // Parte 03
+
+    // 01. Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+    function removeFilho (elemento, idElemento) {
+      for (let item = elemento.childNodes.length - 1; item >= 0; item -= 1) {
+        if (elemento.childNodes[item].id !== idElemento) {
+          elemento.childNodes[item].remove();
+        }    
+      }  
+    }
+
+    // removendo todos os filos de pai menos elementoOndeVoceEsta e os filhos do mesmo.
+    removeFilho (pai, 'elementoOndeVoceEsta');
+
+    // removendo todos os filhos de elementoOndeVoceEsta menos primeiroFilhoDoFilho e os filhos do mesmo.
+    removeFilho (elementoOndeVoceEsta, 'primeiroFilhoDoFilho');
+
+    // removendo todos os filhos de primeiroFilhoDoFilho. OBs.: Aqui passarei null como parametro para aproveitar a função e deletar todos os filhos de primeiroFilhoDoFilho.
+    removeFilho (primeiroFilhoDoFilho, null);
+
+    
+
+  </script>
+</body>
+</html>
