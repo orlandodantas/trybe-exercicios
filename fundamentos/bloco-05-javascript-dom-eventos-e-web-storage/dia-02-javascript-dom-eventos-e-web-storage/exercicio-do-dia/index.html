@@ -76,21 +76,49 @@
       // 4. Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
       let paragraph = document.createElement('p');
       paragraph.innerText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quasi animi delectus, ex sint eveniet tempora voluptatum rem unde, veritatis nostrum, quo omnis aperiam? Voluptas cum minima placeat quisquam earum.';
-      sectionCenter.append(paragraph);
+      sectionCenter.appendChild(paragraph);
 
       // 5. Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
       let sectionLeft = document.createElement('section');
       sectionLeft.className = 'left-content';
-      mainContent.append(sectionLeft);
+      mainContent.appendChild(sectionLeft);
 
       // 6. Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
       let sectionRight = document.createElement('section');
       sectionRight.className = 'right-content';
-      mainContent.append(sectionRight);
+      mainContent.appendChild(sectionRight);
 
       // 7. Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do section criado no passo 5;
+      let smallImage = document.createElement('img');
+      smallImage.src = 'https://picsum.photos/200';
+      smallImage.alt = 'floresta';
+      sectionLeft.appendChild(smallImage);
+
       // 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
-      // 9. Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+      let listNumeroPorExtenso = document.createElement('ul');
+      sectionRight.appendChild(listNumeroPorExtenso);
+
+      function criarLI (value, listNotSort) {
+        let li = document.createElement('li');
+        li.innerText = value;
+        listNotSort.appendChild(li);
+      }
+      let numeros = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+      for (const numero of numeros) {
+        criarLI(numero, listNumeroPorExtenso);
+      }
+      
+
+      // 9. Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+      function criarH3 (value, elementoPai) {
+        let h3 = document.createElement('h3');
+        h3.innerText = value;
+        elementoPai.appendChild(h3);
+      }
+
+      criarH3('Tete 01', mainContent);
+      criarH3('Tete 02', mainContent);
+      criarH3('Tete 03', mainContent);
     </script>
   </body>
 </html>
