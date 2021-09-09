@@ -189,3 +189,42 @@ function addTaskOnDay () {
 }
 
 addTaskOnDay();
+
+// BONUS. Vamos adicionar compromissos ao seu calendário? Implemente uma função que, ao digitar um compromisso na caixa de texto "COMPROMISSOS", adiciona o item à lista "MEUS COMPROMISSOS" ao clicar no botão "ADICIONAR".
+function meusCompromissos () {
+  let input = document.getElementById('task-input');
+  let buttonAdd = document.getElementById('btn-add');
+  let task = document.querySelector('.my-tasks');
+
+  // let list = document.createElement('ul');
+  // list.classList.add('list-task');
+  // task.appendChild(list);
+
+  buttonAdd.addEventListener('click', () => {
+    if (input.value !== '') {
+      let listItem = document.createElement('li');
+      listItem.innerText= input.value;
+      task.appendChild(listItem);
+      input.value = '';
+    }
+    else {
+      alert('Error: O campo compromissos deve ser prenchido.');
+    }
+  });
+
+  input.addEventListener('keypress', elemento => {
+    if (elemento.keyCode === 13) {
+      if (input.value !== '') {
+        let listItem = document.createElement('li');
+        listItem.innerText= input.value;
+        task.appendChild(listItem);
+        input.value = '';
+      }
+      else {
+        alert('Error: O campo compromissos deve ser prenchido.');
+      }
+    }
+  });
+}
+
+meusCompromissos();
