@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Config</title>
+</head>
+<body>
+  <header class="cabecalho"> 
+    <h1 class="tituloPrincipal">Configurações</h1> 
+    
+    <nav>
+      <ul class="listMenu">
+        <li> <a href="index.html" class="linkMenu">Home</a> </li>
+        <li> <a href="config.html" class="linkMenu">Configurações</a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="containerPrincipal">
+    <section>
+      <input type="text" id="backgroundColor" placeholder="Cor de fundo" />
+      <input type="text" id="fonteColor" placeholder="Cor da fonte" />
+      <input type="text" id="fonteSize" placeholder="Tamanho da fonte" />
+      <input type="text" id="lineSpace" placeholder="Espaçamento entre as linhas" />
+      <!-- <input type="" id="fontType" placeholder="Tipo de fonte" /> -->
+      <select name="font" id="fontType">
+        <option value="'Courier New', Courier, monospace">'Courier New', Courier, monospace</option>
+        <option value="'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">'Franklin Gothic Medium', 'Arial Narrow'</option>
+        <option value="'Times New Roman', Times, serif">'Times New Roman', Times, serif</option>
+        <option value="Arial, Helvetica, sans-serif">Arial, Helvetica, sans-serif</option>
+      </select>
+
+      <button id="button-save">Salvar</button>
+      <button id="button-reset">Reset</button>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: aquamarine;
+    position: absolute;
+}
+
+.tituloPrincipal {
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: rgb(190, 190, 190);
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.containerPrincipal {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.paragrafo {
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rodape {
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.listMenu {
+    margin-left: 80px;
+}
+
+.listMenu li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.linkMenu {
+    text-decoration: none;
+}
+
+.linkMenu:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: green;
+}
+
+nav {
+    background-color: rgb(98, 180, 218);
+    padding: 4px;
+    margin-top: 6px;
+}
