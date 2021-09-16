@@ -1,0 +1,17 @@
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.row-content {
+  margin-bottom: 10px;
+  padding-right: 8px;
+}
+
+.row-content input[type=text], input[type=email] {
+  width: 100%;
+}
+
+.row-content textarea {
+  width: 100%;
+}
