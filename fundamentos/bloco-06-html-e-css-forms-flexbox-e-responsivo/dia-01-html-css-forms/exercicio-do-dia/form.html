@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário Currículo</title>
+</head>
+<body>
+  <header>
+      <h1>Preencha o seu currículo no form abaixo</h1>
+  </header>
+  
+  <main>
+    <section>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+
+          <div class="row-content">
+            <label for="input-name">Nome:</label>
+            <input type="text" name="name" id="input-name" required maxlength="40">
+          </div>
+
+          <div class="row-content">
+            <label for="input-email">Email:</label>
+            <input type="email" name="email" id="input-email" required maxlength="50">
+          </div>
+
+          <div class="row-content">
+            <label for="input-cpf">CPF:</label>
+            <input type="text" name="cpf" id="input-cpf" required maxlength="11">
+          </div>
+
+          <div class="row-content">
+            <label for="input-endereco">Endereço:</label>
+            <input type="text" name="endereco" id="input-endereco" required maxlength="200">
+          </div>
+
+          <div class="row-content">
+            <label for="input-cidade">Cidade:</label>
+            <input type="text" name="endereco" id="input-cidade" required maxlength="28">
+          </div>
+
+          <div class="row-content">
+            <label for="select-uf">Estado:</label>
+            <select name="uf" id="select-uf" required>
+
+            </select>
+          </div>
+
+          <div class="row-content">
+            <fieldset>
+              <legend>Moradia</legend>
+              <label for="radio-moradia-01">Casa</label>
+              <input type="radio" name="moradia" id="radio-moradia-01" value="casa" required>
+              <label for="radio-moradia-02">Apartamento</label>
+              <input type="radio" name="moradia" id="radio-moradia-02" value="apartamento" required>
+          </fieldset>
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Último emprego</legend>
+
+          <div class="row-content">
+            <label for="input-resumo">Resumo do currículo:</label>
+            <textarea name="resumo" id="input-resumo" cols="127" rows="3" placeholder="Resumo do seu currículo aqui" maxlength="1000"></textarea>
+          </div>
+
+          <div class="row-content">
+            <label for="input-cargo">Cargo:</label>
+            <input type="text" name="cargo" id="input-cargo" required maxlength="40">
+          </div>
+
+          <div class="row-content">
+            <label for="input-desc-cargo">Descrição do Cargo:</label>
+            <input type="text" name="descCargo" id="input-desc-cargo" required maxlength="500">
+          </div>
+
+          <div class="row-content">
+            <label for="input-data">Data Início:</label>
+            <input type="text" name="data" id="input-data" required placeholder="dd/mm/aaaa">
+          </div>
+
+        </fieldset>
+
+        <button type="submit" id="button-enviar">Enviar</button>
+        <button type="reset" id="clear">Limpar Tudo</button>
+      </form>
+    </section>
+    <section>
+      <div>
+        <p class="mensagem">
+
+        </p>
+      </div>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
