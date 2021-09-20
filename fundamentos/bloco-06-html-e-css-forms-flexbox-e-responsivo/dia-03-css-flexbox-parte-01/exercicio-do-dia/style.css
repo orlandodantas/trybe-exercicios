@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+.header-img {
+  width: 70px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.container-cabecalho {
+  display: flex;
+  justify-content: center;
+  background-color: #313433;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  color: white;
+}
+
+.cabecalho h3 {
+  color: #d1ccca;
+}
+
+.cabecalho h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.comentary {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.full-galery {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.container-galery {
+  display: flex;
+  width: 550px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.galery {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  width: 170px;
+  height: 210px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  color: #868291;
+  box-shadow: 3px 3px 4px #868291;
+}
+
+hr {
+  width: 145px;
+  border-color: #f1f1f1;
+  margin-top: 7px;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
