@@ -78,6 +78,7 @@ p strong {
   }
 }
 
+/* O codigo a baixo foi baseado no código do seguinte link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries */
 @media not screen and (min-width: 650px) and (max-width: 950px) {
   div:nth-child(3) {
     display: flex;
