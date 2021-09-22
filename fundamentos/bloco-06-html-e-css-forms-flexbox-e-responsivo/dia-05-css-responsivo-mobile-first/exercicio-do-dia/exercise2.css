@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 20px;
+  font-size: x-large;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header {
+  flex-basis: 80%;
+  text-align: center;
+}
+
+.container-aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wap;
+  gap: 2%;
+}
+
+nav li {
+  list-style: none;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.7rem;
+}
+
+.main-content h1 {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    margin: 30px;
+  }
+
+  .container-aside {
+    flex-direction: row;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 10px;
+    padding: 2px;
+    justify-content: center;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .main-content p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    background-color: azure;
+  }
+  .container-aside {
+    flex-direction: column;
+    margin-right: 30px;
+    font-size: 18px;
+    background-color: aquamarine;
+    padding: 12px;
+  }
+
+  .container-aside h2 {
+    text-align: center;
+  }
+
+  .content {
+    display: flex;
+  }
+
+  .main-content {
+    max-width: 800px;
+    background-color: aqua;
+    padding: 12px;
+  }
+
+  nav ul {
+    justify-content: flex-start;
+  }
+
+  footer {
+    margin-left: 50px;
+  }
+
+  footer h3 {
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: 18px;
+  }
+}
