@@ -1,0 +1,15 @@
+{
+  "name": "imc",
+  "version": "1.0.0",
+  "description": "Indice de massa corporea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imc": "node imc.js"
+  },
+  "author": "Orlando Dantas",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
