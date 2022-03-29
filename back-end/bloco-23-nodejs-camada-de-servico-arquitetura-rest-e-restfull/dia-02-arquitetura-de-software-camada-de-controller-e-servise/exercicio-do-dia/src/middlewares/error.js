@@ -1,3 +1,5 @@
+require('express-async-errors'); // Esse middleware trata erros assíncronos;
+
 const error = (err, _req, res, _next) => {
 
   // Se for um erro do Joi, sabemos que trata-se de um erro de validação.
