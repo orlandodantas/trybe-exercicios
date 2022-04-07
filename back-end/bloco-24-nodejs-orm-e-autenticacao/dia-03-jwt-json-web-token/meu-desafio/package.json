@@ -1,0 +1,29 @@
+{
+  "name": "meu-desafio",
+  "version": "1.0.0",
+  "description": "Criar uma API com express e JWT",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "eslint": "./node_modules/.bin/eslint .",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Orlando Dantas",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-trybe-backend": "^1.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
