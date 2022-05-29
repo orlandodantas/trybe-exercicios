@@ -108,94 +108,94 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 14.4 - Projeto - React Testing Library
 
 ##### Bloco 15: Gerenciamento de estado com Redux
-- [ ] 15.1 - Introdução ao Redux - O estado global da aplicação
-- [ ] 15.2 - Usando o Redux no React
-- [ ] 15.3 - Usando o Redux no React - Prática
-- [ ] 15.4 - Usando o Redux no React - Actions Assíncronas
-- [ ] 15.5 - Testes síncronos com React-Redux
-- [ ] 15.6 - Projeto - Trybe Wallet
+- [X] 15.1 - Introdução ao Redux - O estado global da aplicação
+- [X] 15.2 - Usando o Redux no React
+- [X] 15.3 - Usando o Redux no React - Prática
+- [X] 15.4 - Usando o Redux no React - Actions Assíncronas
+- [X] 15.5 - Testes síncronos com React-Redux
+- [X] 15.6 - Projeto - Trybe Wallet
 
 ##### Bloco 16: Projeto Jogo de Trivia
-- [ ] 16.1 - Projeto - Jogo de Trivia
+- [X] 16.1 - Projeto - Jogo de Trivia
 
 ##### Bloco 17: Context API e React Hooks
-- [ ] 17.1 - Context API do React
-- [ ] 17.2 - React Hooks - useState e useContext
-- [ ] 17.3 - React Hooks - useEffect e Hooks customizados
-- [ ] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
+- [X] 17.1 - Context API do React
+- [X] 17.2 - React Hooks - useState e useContext
+- [X] 17.3 - React Hooks - useEffect e Hooks customizados
+- [X] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
 
 ##### Bloco 18: Projeto App de Receitas
-- [ ] 18.1 - Projeto - App de Receitas
+- [X] 18.1 - Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 19: Docker: Utilizando Containers
-- [ ] 19.1 - Introdução - Back-end
-- [ ] 19.1 - Utilizando Containers - Docker
-- [ ] 19.2 - Manipulação e Criação de Imagens no Docker
-- [ ] 19.3 - Orquestrando Containers com Docker Compose
-- [ ] 19.4 - Projeto - Docker Todo-List
+- [X] 19.1 - Introdução - Back-end
+- [X] 19.1 - Utilizando Containers - Docker
+- [X] 19.2 - Manipulação e Criação de Imagens no Docker
+- [X] 19.3 - Orquestrando Containers com Docker Compose
+- [X] 19.4 - Projeto - Docker Todo-List
 
 ##### Bloco 20: Introdução â SQL
-- [ ] 20.1 - Introdução - Banco de dados relacionais
-- [ ] 20.1 - Banco de dados SQL
-- [ ] 20.2 - Encontrando dados em um banco de dados
-- [ ] 20.3 - Filtando dados de forma especifica
-- [ ] 20.4 - Manipulando tabelas
-- [ ] 20.5 - Projeto - All For One
+- [X] 20.1 - Introdução - Banco de dados relacionais
+- [X] 20.1 - Banco de dados SQL
+- [X] 20.2 - Encontrando dados em um banco de dados
+- [X] 20.3 - Filtando dados de forma especifica
+- [X] 20.4 - Manipulando tabelas
+- [X] 20.5 - Projeto - All For One
 
 ##### Bloco 21: Funções SQL, JOINs e Normalização
-- [ ] 21.1 - Funções mais usadas no SQL
-- [ ] 21.2 - Descomplicando JOINs
-- [ ] 21.3 - Transformando ideias em um modelo de banco de dados
-- [ ] 21.4 - Aula ao vivo + Projeto - One For All
+- [X] 21.1 - Funções mais usadas no SQL
+- [X] 21.2 - Descomplicando JOINs
+- [X] 21.3 - Transformando ideias em um modelo de banco de dados
+- [X] 21.4 - Aula ao vivo + Projeto - One For All
 
 ##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
-- [ ] 22.1 - Introdução - Node.js
-- [ ] 23.1 - Node.js - Um motor JavaScript
-- [ ] 22.2 - Node.js - Fluxo Assincrono
-- [ ] 22.3 - Mocha, Chai, Sinon - Testes de Back-end com Node.js
-- [ ] 22.4 - Express - HTTP com Node.js
-- [ ] 22.5 - Express - Middlewares
-- [ ] 22.6 - Express - Talker Manager
+- [X] 22.1 - Introdução - Node.js
+- [X] 23.1 - Node.js - Um motor JavaScript
+- [X] 22.2 - Node.js - Fluxo Assincrono
+- [X] 22.3 - Mocha, Chai, Sinon - Testes de Back-end com Node.js
+- [X] 22.4 - Express - HTTP com Node.js
+- [X] 22.5 - Express - Middlewares
+- [X] 22.6 - Express - Talker Manager
 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
-- [ ] 23.1 - Introdução - Arquitetura de Software
-- [ ] 23.1 - Arquitetura de Software - Camada de Model
-- [ ] 23.2 - Arquitetura de Software - Camada de Controller e Service
-- [ ] 23.3 - Arquitetura Web - Rest e Restful
-- [ ] 23.4 - Arquitetura de Software - Testando as Camadas
-- [ ] 23.5 - Projeto - Store Manager
+- [X] 23.1 - Introdução - Arquitetura de Software
+- [X] 23.1 - Arquitetura de Software - Camada de Model
+- [X] 23.2 - Arquitetura de Software - Camada de Controller e Service
+- [X] 23.3 - Arquitetura Web - Rest e Restful
+- [X] 23.4 - Arquitetura de Software - Testando as Camadas
+- [X] 23.5 - Projeto - Store Manager
 
 ##### Bloco 24: Node.js: ORM e Autenticação
-- [ ] 24.1 - Introdução - Node.js: ORM e Autenticação
-- [ ] 24.1 - ORM -  Interface da aplicação com o banco de dados 
-- [ ] 24.2 - ORM - Associations
-- [ ] 24.3 - JWT - (JSON Web Token)
-- [ ] 24.4 - Testando APIs com Testes de Integração
-- [ ] 24.5 - Projeto - API de Blogs
+- [X] 24.1 - Introdução - Node.js: ORM e Autenticação
+- [X] 24.1 - ORM -  Interface da aplicação com o banco de dados 
+- [X] 24.2 - ORM - Associations
+- [X] 24.3 - JWT - (JSON Web Token)
+- [X] 24.4 - Testando APIs com Testes de Integração
+- [X] 24.5 - Projeto - API de Blogs
 
 ##### Bloco 25: Deployment
-- [ ] 25.1 - Introdução - Deploy
-- [ ] 25.1 - Infraestrutura - Deploy com Heroku
-- [ ] 25.2 - Deploy Docker & Heroku
-- [ ] 25.3 - Projeto - Stranger Things
+- [X] 25.1 - Introdução - Deploy
+- [X] 25.1 - Infraestrutura - Deploy com Heroku
+- [X] 25.2 - Deploy Docker & Heroku
+- [X] 25.3 - Projeto - Stranger Things
 
 
 ##### Bloco 26: TypeScript
-- [ ] 26.1 - Introdução - TypeScript
-- [ ] 26.1 - Introdução - TypeScript
-- [ ] 26.2 - Tipagem Estatica e Generics
-- [ ] 26.3 - Express com TypeScript
-- [ ] 26.4 - Projeto - Trybe Smith
+- [X] 26.1 - Introdução - TypeScript
+- [X] 26.1 - Introdução - TypeScript
+- [X] 26.2 - Tipagem Estatica e Generics
+- [X] 26.3 - Express com TypeScript
+- [X] 26.4 - Projeto - Trybe Smith
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
-- [ ] 27.1 - Introdução a Orientação a Objetos
-- [ ] 27.2 - Herança e Interfaces
-- [ ] 27.3 - Polimorfismo
-- [ ] 27.4 - SOLID - Introdução
-- [ ] 27.5 - SOLID - Continuação
-- [ ] 27.6 - Projeto - Trybers and Dragons
+- [X] 27.1 - Introdução a Orientação a Objetos
+- [X] 27.2 - Herança e Interfaces
+- [X] 27.3 - Polimorfismo
+- [X] 27.4 - SOLID - Introdução
+- [X] 27.5 - SOLID - Continuação
+- [X] 27.6 - Projeto - Trybers and Dragons
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 - [ ] Projeto - TFC - Trybe Futebol Clube
