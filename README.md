@@ -198,47 +198,47 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 27.6 - Projeto - Trybers and Dragons
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
-- [ ] Projeto - TFC - Trybe Futebol Clube
+- [X] Projeto - TFC - Trybe Futebol Clube
 
 ##### Bloco 29: Intrudução ao MongoDB
-- [ ] 29.1 - Intrudução - NoSQL
-- [ ] 29.1 - MongoDB - Introdução
-- [ ] 29.2 - Filter Operators
-- [ ] 29.3 - Projeto - Data Flights
+- [X] 29.1 - Intrudução - NoSQL
+- [X] 29.1 - MongoDB - Introdução
+- [X] 29.2 - Filter Operators
+- [X] 29.3 - Projeto - Data Flights
 
 ##### Bloco 30: MongoDB: Updates Simples e Complexos
-- [ ] 30.1 - Updates Simples
-- [ ] 30.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 30.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 30.4 - Projeto - Commerce
+- [X] 30.1 - Updates Simples
+- [X] 30.2 - Updates Complexos - Arrays - Parte 1
+- [X] 30.3 - Updates Complexos - Arrays - Parte 2
+- [X] 30.4 - Projeto - Commerce
 
 ##### Bloco 31: MasterClass - VPS, CI/CD
-- [ ] 31.1 - Dia 1
-- [ ] 31.2 - Dia 2
+- [X] 31.1 - Dia 1
+- [X] 31.2 - Dia 2
 
 ##### Bloco 32: Projeto - App de Delivery
-- [ ] 32.1 - Projeto - App de Delivery
+- [X] 32.1 - Projeto - App de Delivery
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 33: Introdução à Python
-- [ ] 33.1 - Introdução - Ciência da Computação
-- [ ] 33.1 - Aprendendo Python
-- [ ] 33.2 - Entrada e Saída de dados
-- [ ] 33.3 - Testes
-- [ ] 33.4 - Projeto - Job Insights
+- [X] 33.1 - Introdução - Ciência da Computação
+- [X] 33.1 - Aprendendo Python
+- [X] 33.2 - Entrada e Saída de dados
+- [X] 33.3 - Testes
+- [X] 33.4 - Projeto - Job Insights
 
 ##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
-- [ ] 34.1 - Introdução à programação orientada a objetos
-- [ ] 34.2 - Herança, Composição e Interfaces
-- [ ] 34.3 - Padrões de projeto
-- [ ] 34.4 - Projeto - Relatórios de Estoque
+- [X] 34.1 - Introdução à programação orientada a objetos
+- [X] 34.2 - Herança, Composição e Interfaces
+- [X] 34.3 - Padrões de projeto
+- [X] 34.4 - Projeto - Relatórios de Estoque
 
 ##### Bloco 35: Redes e Raspagem de Dados
 
-- [ ] 35.1 - Arquitetura de redes
-- [ ] 35.2 - Redes de computadores, ferramentas e segurança
-- [ ] 35.3 - Raspagem de Dados
+- [X] 35.1 - Arquitetura de redes
+- [X] 35.2 - Redes de computadores, ferramentas e segurança
+- [X] 35.3 - Raspagem de Dados
 - [ ] 35.4 - Projeto - Tech News
 
 
